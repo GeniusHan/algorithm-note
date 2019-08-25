@@ -1,4 +1,4 @@
-package com.company;
+package chapter1.basic;
 
 import java.util.Stack;
 

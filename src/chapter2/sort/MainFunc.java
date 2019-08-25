@@ -4,15 +4,17 @@ import java.util.Random;
 
 public class MainFunc
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        int N = 20;
         Random random = new Random();
-        Double[] a = new Double[10];
-        for(int i = 0; i < 10; i++)
+        Double[] a = new Double[N];
+        for(int i = 0; i < N; i++)
         {
             a[i] = random.nextDouble()*10;
         }
-        Selection.show(a);
-        Selection.sort(a);
-        Selection.show(a);
+        Action.show(a);
+        Insertion.sort(a);
+        Action.show(a);
     }
 }

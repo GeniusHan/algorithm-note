@@ -1,4 +1,4 @@
-package com.company;
+package chapter1.basic;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
