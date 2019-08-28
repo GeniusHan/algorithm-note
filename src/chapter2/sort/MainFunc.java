@@ -14,7 +14,7 @@ public class MainFunc
             a[i] = random.nextDouble()*10;
         }
         Action.show(a);
-        Insertion.sort(a);
+        Shell.sort(a);
         Action.show(a);
     }
 }
