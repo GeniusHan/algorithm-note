@@ -14,7 +14,7 @@ public class MainFunc
             a[i] = random.nextDouble()*10;
         }
         Action.show(a);
-        Shell.sort(a);
+        Merge.sort(a);
         Action.show(a);
     }
 }
